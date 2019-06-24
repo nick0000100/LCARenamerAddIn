@@ -1,0 +1,14 @@
+C:\Users\v-nisor\source\repos\LCARenamerAddIn\bin\Debug\LCARenamerAddIn.dll
+C:\Users\v-nisor\source\repos\LCARenamerAddIn\bin\Debug\LCARenamerAddIn.pdb
+C:\Users\v-nisor\source\repos\LCARenamerAddIn\bin\Debug\LCARenamerAddIn.dll.manifest
+C:\Users\v-nisor\source\repos\LCARenamerAddIn\bin\Debug\LCARenamerAddIn.vsto
+C:\Users\v-nisor\source\repos\LCARenamerAddIn\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\v-nisor\source\repos\LCARenamerAddIn\bin\Debug\Microsoft.Office.Tools.Outlook.v4.0.Utilities.dll
+C:\Users\v-nisor\source\repos\LCARenamerAddIn\obj\Debug\LCARenamerAddIn.Properties.Resources.resources
+C:\Users\v-nisor\source\repos\LCARenamerAddIn\obj\Debug\LCARenamerAddIn.csproj.GenerateResource.cache
+C:\Users\v-nisor\source\repos\LCARenamerAddIn\obj\Debug\LCARenamerAddIn.csproj.CoreCompileInputs.cache
+C:\Users\v-nisor\source\repos\LCARenamerAddIn\obj\Debug\LCARenamerAddIn.csproj.CopyComplete
+C:\Users\v-nisor\source\repos\LCARenamerAddIn\obj\Debug\LCARenamerAddIn.dll
+C:\Users\v-nisor\source\repos\LCARenamerAddIn\obj\Debug\LCARenamerAddIn.pdb
+C:\Users\v-nisor\source\repos\LCARenamerAddIn\obj\Debug\LCARenamerAddIn.TestRibbon.resources
+C:\Users\v-nisor\source\repos\LCARenamerAddIn\obj\Debug\LCARenamerAddIn.csprojAssemblyReference.cache
