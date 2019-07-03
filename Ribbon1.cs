@@ -53,14 +53,27 @@ namespace LCARenamerAddIn
                         {
                             if(LCANumber.Contains(FileName) || LCANumber.Contains(Regex.Replace(FileName, @"[a-zA-Z]+$", "")))
                             {
+                                int Count = 1;
+                                String NewFileName = "";
                                 if (Regex.IsMatch(FileName, @"[a-zA-Z]+$"))
                                 {
-                                    File.Move(CurrentFile.FullName, CurrentFile.FullName.Replace(CurrentFile.Name, $"{LCANumber} Signed Posting Attestation{Ex}"));
+                                    NewFileName = CurrentFile.FullName.Replace(CurrentFile.Name, $"{LCANumber} Signed Posting Attestation{Ex}");
+
+                                    while(File.Exists(NewFileName))
+                                    {
+                                        NewFileName = CurrentFile.FullName.Replace(CurrentFile.Name, $"{LCANumber} Signed Posting Attestation ({++Count}){Ex}");
+                                    }
                                 }
                                 else
                                 {
-                                    File.Move(CurrentFile.FullName, CurrentFile.FullName.Replace(CurrentFile.Name, $"C {LCANumber}{Ex}"));
+                                    NewFileName = CurrentFile.FullName.Replace(CurrentFile.Name, $"C {LCANumber}{Ex}");
+
+                                    while (File.Exists(NewFileName))
+                                    {
+                                        NewFileName = CurrentFile.FullName.Replace(CurrentFile.Name, $"C {LCANumber} ({++Count}){Ex}");
+                                    }
                                 }
+                                File.Move(CurrentFile.FullName, NewFileName);
                                 break;
                             }
                         }

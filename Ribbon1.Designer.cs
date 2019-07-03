@@ -52,12 +52,12 @@
             // TestGroup
             // 
             this.TestGroup.Items.Add(this.TestButton);
-            this.TestGroup.Label = "TestGroup";
+            this.TestGroup.Label = "LCA Renamer";
             this.TestGroup.Name = "TestGroup";
             // 
             // TestButton
             // 
-            this.TestButton.Label = "TestButton";
+            this.TestButton.Label = "LCA Renamer";
             this.TestButton.Name = "TestButton";
             this.TestButton.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.TestButton_Click);
             // 
