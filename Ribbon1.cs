@@ -33,6 +33,8 @@ namespace LCARenamerAddIn
                 }
                 // Opens explorer to navigate to folder
                 FolderBrowserDialog fbd = new FolderBrowserDialog();
+                fbd.ShowNewFolderButton = false;
+                fbd.Description = "Select folder with LCAs";
                 if (fbd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                 {
                     String FilePath = fbd.SelectedPath;
